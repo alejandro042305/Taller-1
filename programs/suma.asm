@@ -1,0 +1,7 @@
+# Programa: suma de dos numeros
+# R0 = 5 + 3 = 8
+
+        MOVI R0, 5
+        MOVI R1, 3
+        ADD  R0, R1
+        HALT

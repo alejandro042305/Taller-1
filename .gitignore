@@ -1,0 +1,28 @@
+# Archivos compilados y generados
+*.o
+*.obj
+*.exe
+*.bin
+lex.yy.c
+preprocesador
+lexico
+ensamblador
+enlazador
+
+# Archivos expandidos
+*.spl.expanded
+
+# Directorios de compilación
+build/
+dist/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

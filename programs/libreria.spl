@@ -1,0 +1,6 @@
+# libreria.spl — funciones reutilizables
+#define VERSION 1
+
+int duplicar(int x) {
+    return x + x;
+}

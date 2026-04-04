@@ -1,0 +1,11 @@
+#define MAX 10
+#define PI  3.14159
+#define LIMITE 255
+
+int main() {
+    int a = MAX;
+    int b = 5;
+    int c = a + b;
+    int tope = LIMITE;
+    halt;
+}
