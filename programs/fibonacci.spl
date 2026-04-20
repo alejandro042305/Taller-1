@@ -1,0 +1,35 @@
+#include "constantes.spl"
+#define N_FIB       8
+
+# fibonacci.spl
+# Calculo del N-esimo termino de Fibonacci (iterativo)
+# N almacenado en ADDR_FIB_N   (500)
+# Resultado en   ADDR_FIB_RES  (510)
+#
+# Secuencia: 0,1,1,2,3,5,8,13,21,...
+# F(8) = 21
+
+int fibonacci(int n) {
+    if (n == CERO) {
+        return CERO;
+    }
+    if (n == UNO) {
+        return UNO;
+    }
+    int anterior = CERO;
+    int actual = UNO;
+    int i = 2;
+    while (i <= n) {
+        int temp = actual + anterior;
+        anterior = actual;
+        actual = temp;
+        i = i + UNO;
+    }
+    return actual;
+}
+
+int main() {
+    int n = N_FIB;
+    int resultado = fibonacci(n);
+    halt;
+}

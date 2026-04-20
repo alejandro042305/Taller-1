@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_BYTES    4096
+#define MAX_BYTES    32768
 #define MAX_SYMBOLS   256
 #define MAX_PATCHES   256
 

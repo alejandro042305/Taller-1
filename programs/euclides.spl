@@ -1,0 +1,23 @@
+#include "constantes.spl"
+#define VALOR_A     48
+#define VALOR_B     18
+
+# euclides.spl
+# Algoritmo de Euclides iterativo
+# Demuestra: palabras reservadas, operadores, literales, identificadores
+
+int mcd(int a, int b) {
+    while (b != CERO) {
+        int temp = a % b;
+        a = b;
+        b = temp;
+    }
+    return a;
+}
+
+int main() {
+    int a = VALOR_A;
+    int b = VALOR_B;
+    int resultado = mcd(a, b);
+    halt;
+}

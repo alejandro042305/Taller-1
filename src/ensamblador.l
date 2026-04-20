@@ -15,7 +15,7 @@
 
 /* ── Tabla de etiquetas ── */
 #define MAX_LABELS  256
-#define MAX_OUTPUT  4096
+#define MAX_OUTPUT  32768
 
 typedef struct {
     char nombre[64];

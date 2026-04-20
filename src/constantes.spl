@@ -1,0 +1,23 @@
+# constantes.spl
+# Libreria de constantes del sistema SPL-NB64
+# Incluir con: #include "constantes.spl"
+
+#define CERO        0
+#define UNO         1
+#define VERDAD      1
+#define FALSO       0
+
+#define ADDR_EUCLIDES_A     375
+#define ADDR_EUCLIDES_B     1535
+#define ADDR_EUCLIDES_RES   7478
+
+#define ADDR_MAT_A          1028
+#define ADDR_MAT_B          1034
+#define ADDR_MAT_C          20455
+
+#define ADDR_FIB_N          500
+#define ADDR_FIB_RES        510
+
+#define FILAS_A     3
+#define COLS_A      2
+#define COLS_B      4

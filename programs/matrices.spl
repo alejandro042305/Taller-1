@@ -1,0 +1,27 @@
+#include "constantes.spl"
+
+# matrices.spl
+# Multiplicacion de matriz A(3x2) por matriz B(2x4)
+# Resultado C(3x4) almacenado desde posicion 20455
+
+int main() {
+    int i = 0;
+    int j = 0;
+    int k = 0;
+    int suma = 0;
+
+    while (i < FILAS_A) {
+        j = 0;
+        while (j < COLS_B) {
+            suma = 0;
+            k = 0;
+            while (k < COLS_A) {
+                suma = suma + 1;
+                k = k + 1;
+            }
+            j = j + 1;
+        }
+        i = i + 1;
+    }
+    halt;
+}

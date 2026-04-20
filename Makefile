@@ -1,4 +1,4 @@
-# ══════════════════════════════════════════════════════
+						# ══════════════════════════════════════════════════════
 #  Makefile — SPL NB-64
 #  Uso: make all       → compila los 4 modulos
 #       make test      → prueba con suma.spl y suma.asm
